@@ -1,0 +1,42 @@
+* {
+  font-family: "times new roman";
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app {
+  height: 100vh;
+  width: 80vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+button {
+  background-color: lightpink;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+#title-bar {
+  display: flex;
+  align-items: center;
+  gap: 20%;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 100vw;
+  text-align: right;
+}
+
+small {
+  margin: 20px;
+}
